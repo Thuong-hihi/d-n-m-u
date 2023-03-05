@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự Án Mẫu 2023 Nhom 5</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+     body {
+            font-family: 'Roboto', sans-serif;
+
+        }
+</style>
+<body>
+    <div class="boxcenter">
+        <div class="container max-w-full">
+            <header class="w-full mx-auto pb-3 bg-[#FFC0CB] pyy-[10px]">
+                <div class="flex justify-between items-center ">
+                    <div class="logo w-[150px] ml-5">
+                        <a href="index.html"><img class="bg-clip-content" src="asset/img/logo.png" alt=""></a>
+                    </div>
+                    <form action="" class="flex ml-[-30px] relative ">
+                        <input class="border border-red-400 py-[6px] rounded-[30px] w-[650px] px-3 text-sm "
+                            placeholder="Bạn muốn tìm gì hôm nay..." type="text">
+                        <button class="hover:fill-[#FFC0CB]">
+                            <img class="absolute right-3 top-2" src="asset/icon/search.svg" alt="">
+                        </button>
+                    </form>
+                    <div class="flex justify-between items-center mr-[130px] ">
+                        <button class="flex items-center space-x-2 ml-5 bg-[#FFFFFF] px-2 rounded-[20px] ">
+                            <img class="" src="asset/icon/cart2.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="menu w-full ">
+                    <nav class="ml-8 flex justify-between items-center mt-[20px]">
+                        <div>
+                            <ul class="flex items-center space-x-10 text-[#FFFFFF] text-xl">
+                                <li class="">
+                                    <a href="index.php" class="flex space-x-2 items-center">
+                                        <img src="asset/icon/house-heart-fill.svg" alt="">
+                                        <span class="hover:text-red-400 hover:underline">Trang Chủ</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.php?act=sanpham" class="flex space-x-2 items-center">
+                                        <img src="asset/icon/grid.svg" alt="">
+                                        <span class="hover:text-red-400 hover:underline">Sản Phẩm</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.php?act=thongtin" class="flex space-x-2 items-center">
+                                        <img src="asset/icon/newspaper.svg" alt="">
+                                        <span class="hover:text-red-400 hover:underline">Thông tin </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.php?act=gioithieu" class="flex space-x-2 items-center">
+                                        <img src="asset/icon/person-rolodex.svg" alt="">
+                                        <span class="hover:text-red-400 hover:underline">Giới Thiệu</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.php?act=lienhe" class="flex space-x-2">
+                                        <img src="asset/icon/person-lines-fill.svg" alt="">
+                                        <span class="hover:text-red-400 hover:underline">Hỗ Trợ</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </nav>
+                </div> <!-- End .menu-->
+            </header>
+            <div class="banner min-h-[500px] w-full mt-4">
+                <a href="">
+                    <img class="w-full h-full" src="asset/img/0.jpg" alt="" id="anh">
+                </a>
+            </div> <!-- End .banner-->
+            <div class="p_shop w-5/6 mx-auto mt-5 text-center text-2xl font-semibold text-[#F54748] ">
+                <span class="italic">FPT SHOP - CÔNG NGHỆ TOÀN CẦU</span>
+            </div> <!-- End .p_shop-->
+
+            <section class="content flex w-11/12 mt-10 mx-auto gap-5">
+                <div class="grid grid-cols-3 gap-5">
+                    <div class="content-item ">
+                        <img class="w-full " src="asset/img/aces.jpg" alt="">
+                        <p class="px-2">Tên</p>
+                        <p class="px-2">Giá</p>
+                        <p class="px-2">Giá KM</p>
+                    </div> <!-- End .content-item-->
+                    <div class="content-item">
+                        <img class="w-full " src="asset/img/apple.jpg" alt="">
+                        <p class="px-2">Tên</p>
+                        <p class="px-2">Giá</p>
+                        <p class="px-2">Giá KM</p>
+                    </div> <!-- End .content-item-->
+                    <div class="content-item ">
+                        <img class="w-full " src="asset/img/dell.jpg" alt="">
+                        <p class="px-2">Tên</p>
+                        <p class="px-2">Giá</p>
+                        <p class="px-2">Giá KM</p>
+                    </div> <!-- End .content-item-->
+                    <div class="content-item">
+                        <img class="w-full " src="asset/img/tainghe.jpg" alt="">
+                        <p class="px-2">Tên</p>
+                        <p class="px-2">Giá</p>
+                        <p class="px-2">Giá KM</p>
+                    </div> <!-- End .content-item-->
+
+                </div> <!-- End grid-->
+
+                <aside class="w-11/12 ">
+                    <div class="border border-[#15146]">
+                        <div class=" font-medium text-xl text-center text-[red] border-b"> Tài Khoản</div>
+                        <div class="ml-[20px]">
+                            <form action="#" method="post">
+                                <div class="mt-[10px]">
+                                    Tên Đăng Nhập <br>
+                                    <input type="text" name="user" id="" class="border border-[#000000] rounded-md">
+                                </div>
+                                <div class="mt-[10px]">
+                                    Mật Khẩu <br>
+                                    <input type="password" name="password" id=""
+                                        class="border border-[#000000] rounded-md">
+                                </div>
+                                <div class="mt-[10px]">
+                                    <input type="checkbox" name="" id=""> Ghi Nhớ Tài Khoản ? <br>
+                                </div>
+                                <div class="mt-[10px]">
+                                    <input type="submit" value="Đăng Nhập "
+                                        class="ml-[50px] font-awesome text-[18px] border border-[#15146] w-[150px] hover:bg-[#FFC0CB]">
+                                </div>
+                                <div class="mt-[10px]">
+                                    <li><a href="#">Quên Mật Khẩu </a> </li>
+                                    <li> <a href="#">Đăng Ký Thành Viên</a></li>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    <!--end tai khoan-->
+                    <div class="mt-[20px] border border-[#15146]">
+                        <div class="font-medium text-xl text-center text-[red] border-b"> Danh Mục</div>
+                        <div class="">
+                            <ul>
+                                <li class="mt-[10px] border-b "><a href="#">Đồng Hồ </a></li>
+                                <li class="mt-[10px] border-b"><a href="#">LapTop</a></li>
+                                <li class="mt-[10px] border-b"><a href="#">Điện Thoại </a></li>
+                                <li class="mt-[10px] border-b"><a href="#">Tai Nghe</a></li>
+                            </ul>
+                        </div>
+                        <div class="form_cate mt-2 p-2 bg-[#FFEEEE]">
+                            <form action="" method="get" class="flex space-x-2">
+                                <input class="border w-full px-2 py-1 " type="text" placeholder="Tìm kiếm tên danh mục">
+                                <input class="border px-2 py-1 text-[#F54748] bg-[#FFFFFF] hover:bg-[#FFC0CB]"
+                                    type="submit" value="Tìm kiếm">
+                            </form>
+                        </div>
+                    </div>
+                    <!--end danh muc-->
+
+                    <div class="mt-[20px] border border-[#15146]">
+                        <div class="font-medium text-xl text-center text-[red] border-b"> Top 10 Yêu Thích</div>
+                        <ul class="category_list">
+                            <li class="flex items-center space-x-2">
+                                <img class="w-[50px] border rounded-md" src="asset/img/apple.jpg" alt="">
+                                <a class="block w-full border-red-400 p-2 text-lg hover:underline hover:text-[#F54748]"
+                                    href="">Tai nghe </a>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <img class="w-[50px] border rounded-md" src="asset/img/hp.jpg" alt="">
+                                <a class="block w-full border-red-400 p-2 text-lg hover:underline hover:text-[#F54748]"
+                                    href="">Apple watch</a>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <img class="w-[50px] border rounded-md" src="asset/img/dongho.jpg" alt="">
+                                <a class="block w-full border-red-400 p-2 text-lg hover:underline hover:text-[#F54748]"
+                                    href="">Đồng Hồ Mạ Vàng</a>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <img class="w-[50px] border rounded-md" src="asset/img/dell.jpg" alt="">
+                                <a class="block w-full border-red-400 p-2 text-lg hover:underline hover:text-[#F54748]"
+                                    href="">Máy Tính Cây DELL sr51a7 </a>
+                            </li>
+                        </ul> <!-- End .category_list-->
+                        <div class="form_cate mt-2 p-2 bg-[#FFEEEE]">
+                            <form action="" method="get" class="flex space-x-2">
+                                <input class="border w-full px-2 py-1" type="text" placeholder="Tìm kiếm top yêu thích">
+                                <input class="border px-2 py-1 text-[#F54748] bg-[#FFFFFF] hover:bg-[#FFC0CB]"
+                                    type="submit" value="Tìm kiếm">
+                            </form>
+                        </div>
+                    </div>
+                    <!--endtop 10 yeu thich-->
+                </aside>
+            </section>
+
+        </div>
+</body>
+
+</html>
